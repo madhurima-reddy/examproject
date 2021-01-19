@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    font-family: 'Muli', 'Baloo Da 2', 'Montserrat', sans-serif;
+  }
+ body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    width: 80%;
+    margin: auto;
+  }
+  .container {
+    padding: 16px;
+    width: 350px;
+    margin: auto;
+  }
+    
+  /* Style the top navigation bar */
+  .topnav {
+
+    overflow: hidden;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+  }
+  button {
+    background-color:rgb(252, 224, 189);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .topnav ul {
+    list-style-type: none;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 70px;
+  }
+  
+  /* Change color on hover */
+  /* .topnav a:hover {
+    
+  }
+   */
+  .main {   
+    width: 80%;
+    margin: auto;
+  }
+  img {
+    width: auto;
+    max-width: 185px;
+    height: auto;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+  
+    bottom: 0;
+    width: 100%;
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+  }
