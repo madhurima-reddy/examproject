@@ -1,27 +1,28 @@
-<!--For all screen-->
 <div class="container">
     <br>
-    <h3 >Login As admin </h3>
+    <h3 class="text-center text-info  ">Login As Admin </h3>
     <!--Login & Signup in single row-->
-    <div >
+    <div class="row">
         <!--Column for signin-->
-        <div >
+        <div class="col-sm-8 text-center signin">
             <form action="#!">
                 <!-- Email --> 
-                <input type="email"  placeholder="&#xf0e0; Email" style="font-family:Arial, FontAwesome">
+                <input type="email" class="form-control mb-4" placeholder="&#xf0e0; Email" style="font-family:Arial, FontAwesome">
                  <!-- Password -->
-                  <input type="password"  placeholder="&#xf023; Password" style="font-family:Arial, FontAwesome">
+                  <input type="password" class="form-control mb-4" placeholder="&#xf023; Password" style="font-family:Arial, FontAwesome">
                   <!-- Sign in button -->
-                  <button > <a >Login </a></button>
+                  <button class="btn btn-info btn-block LoginBtn"> <a routerLinkActive="active" routerLink="/login4">Login </a></button>
                   <br>
-                   <a class="ForgotPassBtn" ></a><a>Forgot Your Password?</a> 
-                  
+    
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                 
+                    <br>
+    
+                    <button type="button" class="cancelbtn"> <a routerLinkActive="active" routerLink="/"> Cancel  </a> </button>
                 
-  
+                    
                   
             </form>
-        </div>
-        <!--Column for signin-->
         
     </div>
   </div>
